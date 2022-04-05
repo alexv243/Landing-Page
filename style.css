@@ -1,13 +1,49 @@
+body{
+    font-family: roboto;
+}
+
 a{
     text-decoration: none;
     font-size: 18px;
+    color: #E5E7Eb;
 }
 
 img{
 
 }
 
+button{
+    background-color: #3882F6;
+    color: #E5E7Eb;
+}
+
 .Header{
     display: flex;
     background-color: #1F2937;
+    flex-direction: column;
+}
+
+.Hero-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7Eb;
+
+}
+
+.box-1{
+    display: flex;
+}
+
+.box-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.Subtext{
+    color: #E5E7Eb;
+}
+
+.Inner-Box-2-1{
+    display: flex;
+    flex-direction: column;
 }
